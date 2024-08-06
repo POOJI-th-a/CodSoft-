@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    padding: auto 0;
+    text-align: center;
+}
+#home{
+    background-color: beige;
+    width: 100%;
+}
+#about{
+    background-color:blanchedalmond;
+}
+#skills{
+    background-color: aliceblue;
+}
+#projects{
+    background-color:rgb(195, 192, 192);
+}
+#resume{
+    background-color: ivory;
+}
+#contact{
+    background-color:rgb(171, 247, 223);
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+  }
+  .social-links a{
+    border: 2px solid rgba(245, 245, 245, 0.648);
+    color: whitesmoke;
+    display: block;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    /*margin: 0 0.3rem; */
+    transition: all 0.5s ease;
+    margin-top: 0;
+    margin: 8px;
+  }
+  .social-links a:hover{
+    background: gold;
+    color: red;
+  }
+
+.skill{
+    columns: 3 20px;
+    column-gap: 20px;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+  }
+  .skill2{
+    background-color: orangered;
+    margin: 0px 20px
+  
+  }
+  .skill1{
+  text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .html{
+    width: 90%;
+    background-color: skyblue;
+  }
+  .css{
+    width: 90%;
+    background-color: skyblue;
+  }
+  .javascript{
+    width: 90%;
+    background-color: skyblue;
+  }
+  .c{
+    width: 90%;
+    background-color: skyblue;
+  }
+  .cpp{
+    width: 90%;
+    background-color: skyblue;
+  }
+  .python{
+    width: 90%;
+    background-color: skyblue;
+  }
+  .sql{
+    width: 90%;
+    background-color: skyblue;
+  }
+  .ms{
+    width: 90%;
+    background-color: skyblue;
+  }
+  .content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  .projects {
+    background: #F7FFF7;
+  }
+  .projects a {
+    color: #2F3061;
+  }
+  .projects .btn {
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .projects .btn:hover {
+    background: rgba(47, 48, 97, 80%);
+  }
+  .project-item {
+    overflow: hidden;
+  }
+  .project-item h3 {
+    margin-top: 0;
+  }
+  .project-item img{
+    width: 50%;
+    height: auto;
+   
+  }
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+#contact #contactForm connect{
+    height: max-content;
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    color: #333;
+    font-size: 30px;
+} 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
